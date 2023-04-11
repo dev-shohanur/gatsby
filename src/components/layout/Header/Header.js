@@ -14,8 +14,14 @@ const Header = () => {
       setScrollNav(false)
     }
   }
-  window.addEventListener("scroll", stickyNav);
-  const isHome = window.location.pathname;
+
+  let isHome;
+
+  if (typeof window !== "undefined") {
+    // Your code that references the window object
+    window.addEventListener("scroll", stickyNav);
+    isHome = window.location.pathname;
+  }
   console.log(isHome);
   return (
     <>
