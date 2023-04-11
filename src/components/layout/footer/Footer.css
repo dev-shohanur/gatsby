@@ -1,0 +1,33 @@
+.footer-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+  text-transform: capitalize;
+}
+
+.footer a,
+.footer p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.footer a {
+  margin-bottom: 20px;
+}
+.social-icon div {
+  transition: all .40s ease-in;
+}
+
+.social-icon div:hover svg {
+     color: #FFFFFF !important;
+}

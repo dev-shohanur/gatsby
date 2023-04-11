@@ -1,0 +1,16 @@
+.eventListHero{
+  background-color: #372F67;
+}
+.eventListHero .hero-bg{
+  position: relative;
+}
+.eventListHero .hero-bg::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #372F67 90%);
+}

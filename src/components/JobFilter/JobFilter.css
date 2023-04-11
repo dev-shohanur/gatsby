@@ -1,0 +1,30 @@
+input:focus {
+  outline: none;
+}
+
+input {
+  border: none;
+}
+
+.onCanvas-menu {
+  position: absolute;
+  top: 29px;
+  left: 0;
+  padding: 30px;
+  backdrop-filter: blur(20px);
+  border: 1px solid #ddd;
+  z-index: 95;
+}
+
+.remove-toggle {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+.add-toggle {
+  opacity: 1;
+  visibility: visible;
+  transition: 0.5s;
+  width: 100%;
+}
