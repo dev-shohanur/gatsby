@@ -36,7 +36,7 @@ const AllJobs = ({ data }) => {
             </div>
             <div className="flex items-center lg:justify-end gap-10">
               <Link to={`/job-detail/${job?.frontmatter?.id}`}>
-                <button className='btn bg-[#F0EEFF] hover:bg-[#5F4BDB] border-none rounded-full font-semibold capitalize  2xl:px-14 px-8 py-[18px] text-[16px] hover:text-[#ffffff] text-[#5F4BDB] transition-all duration-700'>Apply Now</button>
+                <button className='btn bg-[#F0EEFF] hover:bg-[#5F4BDB] border-none rounded-full font-semibold capitalize  2xl:px-14 px-8 text-[16px] hover:text-[#ffffff] text-[#5F4BDB] transition-all duration-700'>Apply Now</button>
               </Link>
               <div className="">
                 <div className="bg-[#FFD9D9] transition-all duration-700 hover:text-[#FFD9D9] hover:bg-[#FF5353]  text-[#FF5353] flex items-center justify-center rounded-full w-14 h-14 cursor-pointer">

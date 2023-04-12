@@ -30,7 +30,7 @@ const Pricing = () => {
             </li>
           </ul>
 
-          <button className='btn bg-[#F0EEFF] hover:bg-[#5F4BDB] transition-all duration-700 border-none rounded-full font-semibold capitalize 2xl:px-14 px-8 py-[18px] text-[16px] hover:text-[#ffffff] text-[#5F4BDB] w-full'>Apply Now</button>
+          <button className='btn bg-[#F0EEFF] hover:bg-[#5F4BDB] transition-all duration-700 border-none rounded-full font-semibold capitalize 2xl:px-14 px-8 text-[16px] hover:text-[#ffffff] text-[#5F4BDB] w-full'>Apply Now</button>
         </div>
         <div className="card shadow-xl hover:shadow-2xl px-[50px] pt-[45px] pb-[56px]">
           <h2 className='text-[28px] leading-[26px] font-bold #363848 text-center mb-[36px]'>PREMIUM</h2>
@@ -52,7 +52,7 @@ const Pricing = () => {
             </li>
           </ul>
 
-          <button className='btn bg-[#F0EEFF] transition-all duration-700 hover:bg-[#5F4BDB] border-none rounded-full font-semibold capitalize 2xl:px-14 px-8 py-[18px] text-[16px] hover:text-[#ffffff] text-[#5F4BDB] w-full'>Apply Now</button>
+          <button className='btn bg-[#F0EEFF] transition-all duration-700 hover:bg-[#5F4BDB] border-none rounded-full font-semibold capitalize 2xl:px-14 px-8 text-[16px] hover:text-[#ffffff] text-[#5F4BDB] w-full'>Apply Now</button>
         </div>
         <div className="card shadow-xl hover:shadow-2xl px-[50px] pt-[45px] pb-[56px]">
           <h2 className='text-[28px] leading-[26px] font-bold #363848 text-center mb-[36px]'>PLATINUM</h2>
@@ -74,7 +74,7 @@ const Pricing = () => {
             </li>
           </ul>
 
-          <button className='btn bg-[#F0EEFF] transition-all duration-700 hover:bg-[#5F4BDB] border-none rounded-full font-semibold capitalize 2xl:px-14 px-8 py-[18px] text-[16px] hover:text-[#ffffff] text-[#5F4BDB] w-full'>Apply Now</button>
+          <button className='btn bg-[#F0EEFF] transition-all duration-700 hover:bg-[#5F4BDB] border-none rounded-full font-semibold capitalize 2xl:px-14 px-8 text-[16px] hover:text-[#ffffff] text-[#5F4BDB] w-full'>Apply Now</button>
         </div>
       </div>
     </div>

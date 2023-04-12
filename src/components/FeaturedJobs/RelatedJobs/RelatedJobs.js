@@ -41,7 +41,7 @@ const RelatedJobs = ({ recentJob }) => {
                     <FaHeart className='text-2xl text-[#FFFFFF] cursor-pointer' />
                   </div>
                 </div>
-                <Link to={'/job-details/' + job?.frontmatter?.id}><button className='btn bg-[#F0EEFF] transition-all duration-700 hover:bg-[#5F4BDB] border-none rounded-full font-semibold capitalize 2xl:px-14 px-8 py-[18px] text-[16px] hover:text-[#ffffff] text-[#5F4BDB]'>Apply Now</button></Link>
+                <Link to={'/job-details/' + job?.frontmatter?.id}><button className='btn bg-[#F0EEFF] transition-all duration-700 hover:bg-[#5F4BDB] border-none rounded-full font-semibold capitalize 2xl:px-14 px-8 text-[16px] hover:text-[#ffffff] text-[#5F4BDB]'>Apply Now</button></Link>
               </div>
             </div>
           )

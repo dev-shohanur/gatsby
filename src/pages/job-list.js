@@ -7,22 +7,22 @@ import JobListHero from '../components/JobListHero/JobListHero';
 import Layout from '../components/Layout/layout';
 
 export default function JobList({ data }) {
-    console.log(data);
-    return (
-        <Layout>
-            <div className='bg-white'>
-                <JobListHero />
-                <AllJobs data={data} />
-                <Events />
-                <ClintLogo />
-            </div>
-        </Layout>
-    )
+  console.log(data);
+  return (
+    <Layout>
+      <div className='bg-white'>
+        <JobListHero />
+        <AllJobs data={data} />
+        <Events />
+        <ClintLogo />
+      </div>
+    </Layout>
+  )
 }
 
 export const query = graphql`
 query JobsList {
-  allMarkdownRemark(sort: {id: DESC}) {
+  allMarkdownRemark(sort: {id: DESC}, filter: {frontmatter: {}, html: {ne: ""}})  {
     nodes {
       frontmatter {
         id
