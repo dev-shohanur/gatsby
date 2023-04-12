@@ -34,7 +34,7 @@ export default function Home({ data }) {
 
 export const query = graphql`
 query FeaturedJobs {
-  allMarkdownRemark(sort: {id: DESC}) {
+  allMarkdownRemark(sort: {id: DESC}, filter: {frontmatter: {}, html: {ne: ""}}) {
     nodes {
       frontmatter {
         id
