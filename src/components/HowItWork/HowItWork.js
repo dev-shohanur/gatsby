@@ -51,10 +51,10 @@ const HowItWork = () => {
               </div>
             </div>
           </div>
-          <div className={`flex items-center relative  `}>
+          <div className={`flex items-center relative `}>
             <img className='w-full h-auto' src="https://i.ibb.co/ZTKFmBW/righSide.png" alt="" srcset="" />
             <div onClick={() => setVideoOpen(true)} className="flex justify-center bg-[#FFFFFF] w-[66px] h-[66px]  p-[10px] rounded-[76px] cursor-pointer items-center absolute top-[45%] left-[40%]">
-              <FaPlay className=' mx-auto text-2xl' />
+              <FaPlay className='mx-auto text-2xl' />
             </div>
           </div>
         </div>
