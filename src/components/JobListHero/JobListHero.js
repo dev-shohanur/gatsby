@@ -7,7 +7,7 @@ const JobListHero = () => {
         <div className="grid lg:grid-cols-2 grid-cols-1 items-center">
           <div className="lg:order-none order-last	">
             <h2 className='xl:text-[3.75rem] text-[3rem] leading-[80px] font-semibold text-[#363848]'>
-              Find your dream  jobs through <span className="text-[#5F4BDB]">Ziro</span> easily
+              Find your dream jobs through <span className="text-[#5F4BDB]">Ziro</span> easily
             </h2>
 
             <div className="mt-16">
