@@ -1,5 +1,6 @@
 import { graphql } from 'gatsby';
 import React from 'react';
+// import '../../node_modules/react-modal-video/scss/modal-video.scss';
 import AllJobs from '../components/AllJobs/AllJobs';
 import ClintLogo from '../components/ClintLogo/ClintLogo';
 import Events from '../components/Events/Events';

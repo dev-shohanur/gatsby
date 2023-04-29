@@ -1,4 +1,5 @@
 import { graphql } from 'gatsby';
+// import 'node_modules/react-modal-video/scss/modal-video.scss';
 import React from "react";
 import ClintLogo from '../components/ClintLogo/ClintLogo';
 import CountUpSection from '../components/CountUpSection/CountUpSection';
