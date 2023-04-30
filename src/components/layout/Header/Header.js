@@ -63,7 +63,7 @@ const Header = () => {
 
                   </li>
                   {/* <div> */}
-                  {/* <li>  <Link className='text-[18px] leading-[27px] font-bold text-[#363848] mb-[20px]'>Become a member</Link></li> */}
+                  {/* <li><Link className='text-[18px] leading-[27px] font-bold text-[#363848] mb-[20px]'>Become a member</Link></li> */}
                 </ul>
               </div>
             </div>
