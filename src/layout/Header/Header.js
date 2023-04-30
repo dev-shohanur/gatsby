@@ -1,6 +1,8 @@
 import { Link } from "gatsby";
 import React, { useState } from 'react';
 import { FaBars, FaSearch, FaTimes } from 'react-icons/fa';
+import '../../styles/global.css';
+
 
 
 

@@ -14,6 +14,7 @@ module.exports = {
     'gatsby-plugin-postcss',
     "gatsby-transformer-remark",
     `gatsby-plugin-netlify-cms`,
+    'gatsby-plugin-postcss',
     {
       resolve: `gatsby-source-filesystem`,
       options: {

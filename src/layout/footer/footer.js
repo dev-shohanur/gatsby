@@ -1,10 +1,12 @@
 import React from 'react';
 import { FaEnvelope, FaFacebookF, FaInstagram, FaLinkedin, FaMapMarkerAlt, FaPhone, FaTwitter, FaYoutube } from 'react-icons/fa';
+import '../../styles/global.css';
 import './Footer.css';
+
 
 const Footer = () => {
   return (
-    <div className=" bg-[#1F2131]">
+    <div className="footer-bg-black">
       <div className='container'>
         <div className="grid lg:grid-cols-2 grid-cols-1 py-24 items-center">
           <h2 className='xl:text-[2.75rem] text-[2rem] lg:text-left text-center xl:leading-[76px] font-semibold text-[#FFFFFF]'>Don’t miss our weekly updates about freelancer career</h2>

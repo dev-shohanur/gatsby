@@ -5,7 +5,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #FFFFFF;
-  margin-bottom: 24px;
+  margin-bottom: 24px !important;
   text-transform: capitalize;
 }
 
@@ -17,17 +17,22 @@
   font-size: 16px;
   line-height: 24px;
   color: #FFFFFF;
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
   text-transform: capitalize;
 }
 
 .footer a {
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
 }
+
 .social-icon div {
   transition: all .40s ease-in;
 }
 
 .social-icon div:hover svg {
-     color: #FFFFFF !important;
+  color: #FFFFFF !important;
+}
+
+.footer-bg-black {
+  background: #1F2131;
 }
