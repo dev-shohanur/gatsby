@@ -37,7 +37,7 @@ export default function WhyChoose() {
             </div>
             <div className="mt-2">
               <h2 className='text-[30px] leading-[32px] font-semibold text-[#363848] my-5'>Faster</h2>
-              <p className='text-[16px] font-normal text-[#11142D] leading-[24px] my-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              <p className='text-[16px] font-normal text-[#11142D] leading-[24px] my-6'>Lorem ipsum dolor  sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
             </div>
           </div>
         </div>
