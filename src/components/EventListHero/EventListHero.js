@@ -12,7 +12,7 @@ const EventListHero = () => {
               <img className=' w-full h-[100%]' src="/images/eventHeroBg.png" alt="" srcset="" />
             </div>
             <div className="xl:py-20 my-10 xl:pr-24 pr-14 pl-4">
-              <h2 className='text-[18px] leading-[27px] text-[#FE8D4D] font-semibold'>FEATURED EVENTS</h2>
+              <h2 className='text-[18px] leading-[27px] text-[#FE8D4D] font-semibold'>FEATURED EVENTS </h2>
               <h2 className='xl:text-[44px] text-[24px] xl:leading-[66px] text-[#FFF] font-semibold'>
                 Ziro Worldwide Freelancers Meetup Indonesia 2020
               </h2>
