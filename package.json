@@ -4,6 +4,11 @@
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
   "license": "0BSD",
+  "engine-strict": true,
+  "engines": {
+    "node": ">=0.10.3 <15",
+    "npm": ">=1.0.20"
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
