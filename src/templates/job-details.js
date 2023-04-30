@@ -3,7 +3,7 @@ import React from 'react';
 import ClintLogo from '../components/ClintLogo/ClintLogo';
 import RelatedJobs from '../components/FeaturedJobs/RelatedJobs/RelatedJobs';
 import JobAndCompanyDetail from '../components/JobAndCompanyDetail/JobAndCompanyDetail';
-import Layout from '../components/layout/layout';
+import Layout from '../layout/layout';
 
 export default function JobDetails({ data }) {
   console.log(data);

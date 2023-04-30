@@ -8,10 +8,10 @@ import FeaturedJobs from '../components/FeaturedJobs/FeaturedJobs';
 import Hero from '../components/Hero/Hero';
 import HowItWork from '../components/HowItWork/HowItWork';
 import LatestNews from '../components/LatestNews/LatestNews';
-import Layout from "../components/Layout/layout";
 import Pricing from '../components/Pricing/Pricing';
 import Testimonial from '../components/Testimonial/Testimonial';
 import WhyChoose from '../components/WhyChoose/WhyChoose.js';
+import Layout from '../layout/layout';
 
 export default function Home({ data }) {
   // console.log(data);

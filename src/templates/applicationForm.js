@@ -2,7 +2,7 @@ import { graphql } from 'gatsby';
 import React from 'react';
 import ClintLogo from '../components/ClintLogo/ClintLogo';
 import JobApplyFrom from '../components/JobApplyFrom/JobApplyFrom';
-import Layout from '../components/layout/layout';
+import Layout from '../layout/layout';
 
 export default function ApplicationForm({ data }) {
   console.log(data);

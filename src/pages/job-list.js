@@ -5,7 +5,7 @@ import AllJobs from '../components/AllJobs/AllJobs';
 import ClintLogo from '../components/ClintLogo/ClintLogo';
 import Events from '../components/Events/Events';
 import JobListHero from '../components/JobListHero/JobListHero';
-import Layout from '../components/Layout/layout';
+import Layout from '../layout/layout';
 
 export default function JobList({ data }) {
   console.log(data);
