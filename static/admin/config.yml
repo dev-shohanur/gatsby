@@ -1,5 +1,6 @@
 backend:
-  name: gatsby
+  name: github
+  repo: dvsrshohan/gatsby
   branch: main
   
 media_folder: static/img
