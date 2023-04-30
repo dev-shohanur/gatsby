@@ -46,7 +46,7 @@ const HowItWork = () => {
                   Apply Jobs
                 </div>
                 <div className="collapse-content">
-                  <p className='w-[80%] ml-[18%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p className='w-[80%] ml-[18%]'>Lorem ipsum sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
               </div>
             </div>
