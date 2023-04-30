@@ -3,20 +3,20 @@ import React from 'react';
 import ClintLogo from '../components/ClintLogo/ClintLogo';
 import RelatedJobs from '../components/FeaturedJobs/RelatedJobs/RelatedJobs';
 import JobAndCompanyDetail from '../components/JobAndCompanyDetail/JobAndCompanyDetail';
-import Layout from '../components/Layout/layout';
+import Layout from '../components/layout/layout';
 
 export default function JobDetails({ data }) {
-    console.log(data);
-    const recentJob = data.allMarkdownRemark;
-    return (
-        <div>
-            <Layout>
-                <JobAndCompanyDetail data={data} />
-                <RelatedJobs recentJob={recentJob} />
-                <ClintLogo />
-            </Layout>
-        </div>
-    )
+  console.log(data);
+  const recentJob = data.allMarkdownRemark;
+  return (
+    <div>
+      <Layout>
+        <JobAndCompanyDetail data={data} />
+        <RelatedJobs recentJob={recentJob} />
+        <ClintLogo />
+      </Layout>
+    </div>
+  )
 }
 
 export const query = graphql`

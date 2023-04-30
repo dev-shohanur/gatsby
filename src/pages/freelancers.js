@@ -5,7 +5,7 @@ import ClintLogo from '../components/ClintLogo/ClintLogo';
 import FeatureProfile from '../components/FeatureProfile/FeatureProfile';
 import FreelancerHero from '../components/FreelancerHero/FreelancerHero';
 import FreelancerList from '../components/FreelancerList/FreelancerList';
-import Layout from '../components/Layout/layout';
+import Layout from '../components/layout/layout';
 
 export default function Freelancers({ data }) {
   console.log(data);
