@@ -5,6 +5,7 @@ backend:
       auth_endpoint: '/api/auth'
       always_fork: true
   branch: main
+  base_url: '/api'
   
 media_folder: public/images
 public_folder: /images
