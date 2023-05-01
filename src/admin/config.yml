@@ -1,6 +1,9 @@
 backend:
   name: github
   repo: dvsrshohan/gatsby
+  open_authoring: true
+      auth_endpoint: '/api/auth'
+      always_fork: true
   branch: main
   
 media_folder: public/images
