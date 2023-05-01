@@ -1,12 +1,7 @@
 backend:
   name: github
   repo: dvsrshohan/gatsby
-  open_authoring: true
-      auth_endpoint: '/api/auth'
-      always_fork: true
   branch: main
-  api_root: /api/v1
-  base_url: /api/v1
 
 media_folder: public/images
 public_folder: /images
@@ -17,7 +12,7 @@ collections:
     folder: src/jobs
     create: true
     fields:
-      - { name: id, label: Id }
+      - { name: id, label: Id , widget: number}
       - { name: publishData, label: PublishData, widget: datetime }
       - { name: title, label: Title ,widget: string}
       - { name: team, label: Team ,widget: string}
