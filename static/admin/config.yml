@@ -3,16 +3,27 @@ backend:
   repo: dvsrshohan/gatsby
   branch: main
   
-media_folder: static/img
-public_folder: /img
+media_folder: public/images
+public_folder: /images
 
 collections:
-  - name: blog
-    label: Blog
-    folder: blog
+  - name: job
+    label: Job
+    folder: src/jobs
     create: true
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: datetime }
-      - { name: title, label: Title }
+      - { name: id, label: Id }
+      - { name: publishData, label: PublishData, widget: datetime }
+      - { name: title, label: Title ,widget: string}
+      - { name: team, label: Team ,widget: string}
+      - { name: price, label: Price }
+      - { name: salaryClass, label: SalaryClass ,widget: string}
+      - { name: location, label: Location }
+      - { name: locationArea, label: LocationArea ,widget: string}
+      - { name: member, label: Member ,widget: string}
+      - { name: experience, label: Experience,widget: string }
+      - { name: aboutCompany, label: AboutCompany,widget: string }
+      - { name: admin, label: Admin }
+      - { name: tittleImg, label: TittleImg ,widget: image}
+      - { name: logo, label: Logo ,widget: image}
       - { name: body, label: Body, widget: markdown }
