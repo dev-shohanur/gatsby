@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: dvsrshohan/gatsby
+  name: git-gateway
   branch: main
 
 media_folder: public/images
