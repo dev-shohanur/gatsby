@@ -20,6 +20,7 @@ const AllJobs = ({ data }) => {
                 <p className='text-[16px] leading-[24px] font-normal text-[#5F4BDB]'>{job?.frontmatter?.team}</p>
               </div>
             </div>
+
             <div className="flex items-center">
               <img src="/images/icSalary2.png" alt="" srcset="" />
               <div className="ml-[25px]">
