@@ -1,10 +1,10 @@
 backend:
    name: github
-  repo: gatsby
-  branch: main
-  base_url: https://api.github.com
-  auth_type: personal_access_token
-  token: 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
+   repo: gatsby
+   branch: main
+   base_url: https://api.github.com
+   auth_type: personal_access_token
+   token: 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
 
 media_folder: public/images
 public_folder: /images
