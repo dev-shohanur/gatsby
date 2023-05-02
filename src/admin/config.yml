@@ -4,7 +4,7 @@ backend:
   branch: main
   base_url: https://api.github.com
   auth_type: token
-  token: ${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}
+  token: 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
 
 media_folder: public/images
 public_folder: /images
